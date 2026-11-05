@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>Aurelia hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- ________header__________ -->
+   
+    <header class="header" >
+        <h5> AURELIA GRAND HOTEL</h5>
+        <div class="navmenu" id="navmenu">
+             <i class="bx bx-window-close"
+   onclick="document.getElementById('navmenu').style.setProperty('right', '-200px', 'important')">
+</i>
+             <ul>
+                 <li> <a href="index.html">Home</a></li>
+                 <li> <a href="#Rooms and suites">Rooms and Suites</a></li>
+                 <li> <a href="#Amenities"> Amenities</a></li>
+                 <li> <a href="#gallery"> Gallery</a></li>
+                 <li> <a href="#Testimonies">Testimonies </a></li>
+                 <li> <a href="#contacts"> Contacts</a></li>   
+             </ul>
+        </div>
+         <i class="bx bx-menu"onclick="openMenu()"></i>
+         </header>
+         
+          <!-- ________rooms and suites _______  -->
+          <section class="rooms ">
+                <div class="suites-img">
+                 <h3> ROOMS AND SUITES</h3>
+                      
+                 </div>
+             <div class="room-type">
+                   <div class="image">
+                 <img src="deluxe.png" alt="">
+                 <h4> Deluxe Room </h4>
+                 <p>   Experience comfort and elegance in our Deluxe Rooms, thoughtfully designed for a relaxing and memorable stay. Each room features a spacious king-size bed, stylish furnishings, modern amenities, high-speed Wi-Fi, a smart TV, and a beautifully appointed bathroom. Whether you’re traveling for business or leisure, the Deluxe Room offers a peaceful retreat with everything you need for a comfortable stay.            </p>
+             </div>
+             
+             <a href="index.html#Rooms and suites" class="Back">Back To Rooms and Suites</a>
+             
+ 
+              </section>
+              
+              <!--     footer  -->
+                 
+                 <footer class="footer">
+                     <div class="attribution">
+             <p>Design with <i class="bx bx-heart"></i> Ayokanmi</p>     
+                </div>
+                     
+                     <div class="move up">
+                         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+                     </div>
+                 </footer>
+                 
+                     <!-- js for toggle menu -->  
+            
+        <script>
+      var navMenu = document.getElementById("navmenu");
+
+function openMenu(){
+    navMenu.style.right = "0";
+}
+
+function closeMenu(){
+    navMenu.style.right = "-200px";
+}
+        
+        </script>  
+                 
+   
+</body>
+</html>
+              
+            
+            

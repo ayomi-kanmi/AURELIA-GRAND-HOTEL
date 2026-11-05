@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <title>Aurelia hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- ________header__________ -->
+   
+    <header class="header" >
+        <h5> AURELIA GRAND HOTEL</h5>
+        <div class="navmenu" id="navmenu">
+             <i class="bx bx-window-close"
+   onclick="document.getElementById('navmenu').style.setProperty('right', '-200px', 'important')">
+</i>
+             <ul>
+                 <li> <a href="index.html">Home</a></li>
+                 <li> <a href="#Rooms and suites">Rooms and Suites</a></li>
+                 <li> <a href="#Amenities"> Amenities</a></li>
+                 <li> <a href="#gallery"> Gallery</a></li>
+                 <li> <a href="#Testimonies"> Testimonies </a></li>
+                 <li> <a href="#contacts"> Contacts</a></li>   
+             </ul>
+        </div>
+         <i class="bx bx-menu"onclick="openMenu()"></i>
+         </header>
+         
+         <!-- ---------------HOME---------------- -->
+         <section class="home" id="home">
+            <div class="home- content">    
+         
+            <div class="home-text">
+              <h3>WELCOME TO AURELIA GRAND HOTEL </h3>
+              <h5>stay beautifully. Live luxuriously.</h5>
+              <p> Experience exceptional comfort, elegant, spaces, and warm hospitality designed to make every stay memorable.</p>
+            </div>  
+            
+            <button type="submit" class="btn" > Book Your stay! Explore Rooms</button>
+              </div>
+         </section>
+         
+           <!-- ________rooms and suites _______  -->
+         <section class="rooms & suites" id="Rooms and suites">
+             <div class="suites-img">
+                 <h3> ROOMS AND SUITES 🛌</h3>
+                      <img src="roomss.png" alt="">
+                      
+                 </div>
+                
+                 <div class="suites">
+                 <div class="card">
+                    <h4> Deluxe Room</h4>
+                    <p> A stylish and comfortable room designed for a relaxing stay.</p>
+                    <div class="price">
+                      <p> ₦200,000 / Night</p>
+                   </div>
+                    <a href="Deluxe.html"> View Room</a>
+                 </div>
+                 
+                 <div class="card">
+                    <h4> Executive Suites</h4>
+                    <p> Spacious accommodation with elegant interiors and premium amenities.</p>
+                    <div class="price">
+                      <p> ₦250,000 / Night</p>
+                </div>
+                    <a href="executive.html"> View Room</a>
+                 </div>
+                 
+                 <div class="card">
+                    <h4> Presidential Suites</h4>
+                    <p> Our finest suite, offering exceptional space, comfort, and luxury.</p>
+                    <div class="price">
+                      <p> ₦350,000 / Night</p>
+                    </div>
+                    <a href="Presidential.html"> View Room</a>
+                      </div>                 
+             </div>
+              </section>
+              <!--     __________. amenties_ -->
+              
+              <section class="Amenities" id="Amenities">
+                  <div class="first">
+                      <h3> AMENITIES</h3>
+                  </div>
+                  <div class="amenities-content" >
+                     
+                      <div class="box">
+                       <i class="bx bx-wifi"></i>
+                        <h4>Free Wi-Fi</h4>
+                        <p> Stay connected throughout your visit.</p>
+                     </div>
+                     
+                     <div class="box">
+                       <i class="bx bx-water"></i>
+                        <h4>Swimming Pool</h4>
+                          <p>Relax and unwind by our refreshing pool.</p>
+                     </div>
+                     
+                     <div class="box">
+                       <i class="bx bx-restaurant"></i>
+                        <h4>Fine Dining</h4>
+                        <p> Enjoy carefully prepared meals and refreshing drinks.</p>
+                     </div>
+                     
+                     <div class="box">
+                         <i class="bx bx-bell"></i>
+                        <h4> 24/7 Room Service</h4>
+                        <p> We're available whenever you need us.</p>
+                     </div>
+                        
+                      </div>   
+           </section>
+           
+           <!-- ___________g Galleery-->
+           <section class="gallery" id="gallery">
+               
+                 <div class="gallery-head" >
+                     <h3> GALLERY </h3>
+                     <p> Explore the elegance and beauty of Aurelia Grand Hotel. </p>
+                 </div>
+               <div class="gallery-grid">
+                   <div class="image">
+                      <img src="outside.png" alt="Hotel exterior">
+                       <h4> Hotel exterior</h4>
+                        </div>
+                        
+                         <div class="image">
+                    <img src="bedroom.png" alt="Deluxe bedroom">
+                      
+                       <h4> Deluxe bedroom</h4>
+                       
+                     
+                        </div>
+                        
+                     <div class="image">
+                      <img src="bathroom.png" alt="Luxury bathroom">
+                       <h4> Luxury bathroom</h4>
+                       
+                        </div>
+                        
+                     <div class="image">
+                      <img src="pool.png" alt="Swimming pool">
+                       <h4 >Swimming pool</h4>
+                      
+                        </div>
+                        
+                      <div class="image">
+                      <img src="restaurant.png" alt="restaurant.png">
+                       <h4 > Restaurant</h4>
+                       
+                        </div>
+                        
+                        <div class="image">
+                     <img src="lobby.png" alt="Lounge/reception">
+                       <h4 > Lounge/reception</h4>
+                       
+                        </div>       
+                          <!-- js  --> 
+                     <h4 id="message"> Luxury and Comfort </h4>
+                        
+                       
+                   </div>
+           </section>
+           
+           <!-- -------------------Testimony-------- -->
+           
+           <section class="testimonial" id="Testimonies">
+                <div class="text-title">
+                       <h3> TESTIMONIES </h3>
+                   </div>
+                   
+               <div class="testimonial-content">
+                   <div class="review-card">
+                       <div class="stars">*****</div>
+                       <h5> "The perfect place for a relaxing getaway" </h5>
+                       <p> The atmosphere was peaceful and the service was excellent. I would definitely stay here again.
+                      
+                       </p> 
+                         <span>   - Daniel</span>
+                   </div>
+                   
+                    <div class="review-card">
+                         <div class="stars">*****</div>
+                       <h5> "A beautiful experience from start to finish" </h5>
+                       <p> The room was spotless, the staff were welcoming, and everything felt incredibly comfortable.
+                                                    
+                       </p> 
+                        <span> - Amara</span>
+                   </div>
+                   
+                    <div class="review-card">
+                         <div class="stars">*****</div>
+                       <h5>"Luxury without losing the feeling of home"  </h5>
+                       <p> Everything was beautifully arranged and the staff made our stay special.
+                       
+                       </p>
+                       <span> - Joy</span>
+                   </div>  
+               </div>   
+           </section>
+           
+           <!--  v.        contact section     b-->
+           
+        <section class="contacts" id="contacts">
+            
+              <div class="wrap">
+               <div class="contact-content">
+                         <div class="contact-text">
+                               <h3> CONTACT + BOOKING</h3>
+                         <p> Ready for an unforgettable stay?</p>
+   <span>Whether you're visiting for business or leisure,  Aurelia Grand Hotel is ready to welcome you.</span>
+                         
+                             
+                            <div class="contact-info">
+                                <h3> Contact information </h3>
+                                <div class="c-box">
+                                    <i class="bx bx-map"> </i>   
+                                <div>
+                                    <h4> Our Location</h4>
+                                    <p> 30 Egbewa Street Ekiti State</p>
+                                </div>
+                            
+                             </div>
+                              <div class="c-box">
+                                    <i class="bx bx-phone"> </i>   
+                                <div>
+                                 <h4>Phone Number</h4>
+                                <p> +2348012345678</p>
+                                </div>
+                             </div>
+                             
+                             <div class="c-box">
+                                    <i class="bx bx-envelope"></i>   
+                                <div>
+                                 <h4>Email Address </h4>
+                                <p> birojoy@gmail.com</p>
+                                </div>
+                             </div>
+                             
+                              <div class="c-box">
+                                    <i class="bx bx-time-five"></i>   
+                                <div>
+                                 <h4>Reception Hours</h4>
+                                <p>  Open 24 Hours</p>
+                                </div>
+                             </div>
+                             </div>
+                             
+                 <div class="contact-form" id="contact-form">
+                               <h5>Book Your Stay </h5>
+                               
+                               <div class="row">
+                                   
+                                   <!--form submit  onsubmit="alert('booking submitted'); return false;" -->
+                                   
+                                    <form id="bookingForm">
+                   <label for="text">Your Name </label>
+                  <input type="text" id="guestName" placeholder="Enter Your Full Name" required>
+                 
+                  <label for="text">Your Email </label>
+                  <input type="email" id="guestEmail"  placeholder="Your Email" required>
+                  <label for="text">Your Phone Number</label>
+                  <input type="tel" id="guestPhone" maxlength="11" pattern="[0-9]{11}"placeholder="08012345678" required>
+                  <label for="check-in"> Check-in </label>
+                  <input type="date" id="checkIn" placeholder="check-in" required>
+                   <label for="check-out"> Check-out </label>
+                   <input type="date" id="checkOut"   placeholder="check-out" required>
+                    <input type="number" id="guests" placeholder="Number of guests" required>
+                
+                     
+                     <div class="Roomtype">
+                         <label for="Roomtype"><span id="room">Room Type:</span></label><br>
+       <input type="radio"id="deluxeroom" name="room" value="Deluxe Room" checked>
+       <label for="deluxeroom">Deluxe Room</label>
+       <input type="radio" id="executiveSuites" name="room"value="Executive Suites" >
+           <label for="executiveSuites"> Executive Suites </label>
+             <input type="radio" id="presidentialSuites" name="room"value="Presidential Suites" >
+           <label for="presidentialSuites"> Presidential Suites </label>
+                     </div>
+                     
+                <button type="submit" class="bookRoom"> Book Now</button> 
+                </form> 
+                <br><br>     
+                
+                  </div>    
+                      </div>
+                              
+                     <div id="bookingSummary"></div>
+             
+        </section>
+                 
+                 <!--     footer  -->
+                 
+                 <footer class="footer">
+                     <div class="attribution">
+             <p>©2026 Aurelia G Hotel. All rights reserved.  Designed with<i class="bx bx-heart"></i> by  Ayokanmi Web Studio.</p>        
+                </div>
+                     
+                     <div class="move up">
+                         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+                     </div>
+                 </footer>
+                 
+                     <!-- js for toggle menu -->  
+            
+        <script src="hotel.js"> </script>  
+                 
+   
+</body>
+</html>
